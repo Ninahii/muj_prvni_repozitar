@@ -52,6 +52,6 @@ while True:
     okno.fill((0, 255, 255))
     
     pygame.draw.rect(okno, (0, 0, 0), (pozice_hrace_x, pozice_hrace_y, 50, 50))
-    pygame.draw.ellipse(okno, (255, 255, 255), (pozice_micku_x, pozice_micku_y, velikost_micku, velikost_micku))
+    pygame.draw.ellipse(okno, (255, 0, 255), (pozice_micku_x, pozice_micku_y, velikost_micku, velikost_micku))
     
     pygame.display.update()
